@@ -1,0 +1,343 @@
+@import "_colors";
+
+.flex-features{
+    
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        display: flex;
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -100px;
+        
+    }
+    
+    
+    
+}
+.flex-features-correct{
+    @media screen and (min-width:768px) {
+        margin-left: -10px;
+    }
+    @media screen and (min-width:1120px) {
+        display: flex;
+        justify-content: center;
+        width: 1190px;
+        margin-left: -70px;
+        margin-right: auto;
+        
+    }
+}
+
+
+// Внимание к деталям
+
+.bg-svg{
+    
+    @media screen and (max-width: 767px) {
+        
+        margin-left: -40px;
+        height: 120px;
+        width: auto;
+
+    }
+    @media screen and (min-width: 768px) 
+    {
+        
+        height: 120px;
+        width: 300px;
+        margin-right: 20px;
+    }
+    @media screen and (min-width:1120px) {
+        width: 270px;
+        
+    }
+
+    
+
+    border-radius: 4px;
+    background-color: $bg-color;
+    margin-bottom: 30px;
+}
+
+.svg-features{
+    width: 70px;
+    height: 70px;
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 50px);
+        // transform: translateX(-40%);
+        
+        
+        // background-color: $primary-color;
+        padding-left: auto;
+        padding-right: auto;
+          
+    }
+    
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 40px);
+        
+        
+    }
+    
+}
+
+.title-features{
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+        margin-left: -30px;
+
+        color: $title-color;
+
+        
+        
+        
+    }
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.3;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+    @media screen and (min-width:768px) {
+        margin-left: 3px;
+    }
+}
+
+.text-features{
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.9;
+    letter-spacing: 0.3;
+
+    @media screen and (max-width: 767px) {
+        
+        margin-left: -40px;
+        padding: 0;
+        text-align: left;
+        
+        padding-bottom: 30px; 
+            
+    }
+    color: $primary-color;
+
+    @media screen and (min-width:768px) {
+        width: 300px;
+        margin-left: 3px;
+        padding-bottom: 30px;
+    }
+    @media screen and (min-width:1120px) {
+        width: 270px;
+        
+    }
+       
+}
+// пунктуальность
+.bg-svg-clock{
+    @media screen and (max-width: 767px) {
+        
+        margin-left: -40px;
+        height: 120px;
+        width: auto;
+
+    }
+    @media screen and (min-width: 768px) 
+    {
+        // margin-left: -40px;
+        height: 120px;
+        width: 300px;
+        margin-right: 30px;
+    }
+    @media screen and (min-width:1120px) {
+        width: 270px;
+        
+    }
+    
+
+    border-radius: 4px;
+    background-color: $bg-color;
+    margin-bottom: 30px;
+}
+
+.position{
+    position: relative;
+}
+
+.svg-features-clock{
+    width: 70px;
+    height: 70px;
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 50px);
+        // transform: translateX(-40%);
+        
+        
+        // background-color: $primary-color;
+        padding-left: auto;
+        padding-right: auto;
+          
+    }
+    
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 45px);
+        
+        
+    }
+    
+
+}
+
+// Планирование
+
+.bg-svg-diagram{
+    @media screen and (max-width: 767px) {
+        
+        margin-left: -40px;
+        height: 120px;
+        width: auto;
+
+    }
+    @media screen and (min-width: 768px) 
+    {
+        margin-left: -20px;
+        height: 120px;
+        width: 300px;
+        margin-right: 20px;
+    }
+    @media screen and (min-width: 1020px) {
+        
+        margin-left: -10px;
+        
+        
+    }
+    @media screen and (min-width:1120px) {
+        width: 270px;
+        
+    }
+    
+
+    border-radius: 4px;
+    background-color: $bg-color;
+    margin-bottom: 30px;
+}
+.position{
+    @media screen and (max-width: 767px) {
+        
+        position: relative;
+    }
+    
+}
+
+.svg-features-diagram{
+    width: 70px;
+    height: 70px;
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 50px);
+        // transform: translateX(-40%);
+        
+        
+        // background-color: $primary-color;
+        padding-left: auto;
+        padding-right: auto;
+          
+    }
+    
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 45px);
+        margin-left: -5px;
+        
+        
+    }
+    
+}
+
+.title-correction, .text-correction{
+    @media screen and (min-width:767px) {
+        margin-left: -15px;
+   }
+    @media screen and (min-width:1020px) {
+         margin-left: -5px;
+    }
+   
+}
+
+// Современные технологии
+.bg-svg-astronaut{
+    
+    @media screen and (max-width: 767px) {
+        
+        margin-left: -40px;
+        height: 120px;
+        width: auto;
+
+    }
+    @media screen and (min-width: 768px) 
+    {
+        // margin-left: -15px;
+        height: 120px;
+        width: 300px;
+        // margin-right: 20px;
+        
+    }
+    @media screen and (min-width:1120px) {
+        width: 270px;
+        
+    }
+    
+
+    border-radius: 4px;
+    background-color: $bg-color;
+    margin-bottom: 30px;
+}
+
+.position-astrout{
+    @media screen and (min-width: 768px) {
+        
+        // padding-left: 30px;
+    }
+    
+}
+.svg-features-astronaut{
+    
+    width: 70px;
+    height: 70px;
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 50px);
+        // transform: translateX(-40%);
+        
+        
+        // background-color: $primary-color;
+        padding-left: auto;
+        padding-right: auto;
+          
+    }
+    
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 25px;
+        left: calc(50% - 45px);
+        margin-left: 10px;
+        
+        
+    }
+}
+.text-features-last{
+    margin-bottom: 60px;
+}

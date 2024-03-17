@@ -1,0 +1,72 @@
+@import "_colors";
+
+.container-doing{
+    @media screen and (max-width:1119px) {
+        display: none;
+        
+    }
+    @media screen and (min-width:1120px) {
+        display: block;
+        
+    }
+}
+.title-doing{
+    display: flex;
+
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+    letter-spacing: 0.3;
+    align-items: center;
+
+    color: $title-color;
+
+    margin-bottom: 50px;
+}
+
+.doing{
+    display: flex;
+    margin-left: -10px;
+}
+
+.img-desktop{
+    display: block;
+    width: 350px;
+}
+
+.div-img{
+    position: relative;
+
+    margin-right: 30px;
+    &:last-child{
+        margin-right: 0px;
+        margin-bottom: 90px;
+    }
+}
+
+.p-doing{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    list-style: 0.3;
+    
+    text-transform: uppercase;
+
+    color: white;
+
+    position: absolute;
+    top: 210px;
+    left: 0px;
+
+    display: flex;
+    width: 350px;
+    height: 70px;
+
+    padding-left: 80px;
+    padding-top: 25px;
+    
+    background-color: rgba(47, 48, 58, 0.8);
+
+}

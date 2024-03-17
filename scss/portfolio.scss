@@ -1,0 +1,198 @@
+@import "_colors";
+.normalize-portfolio{
+    justify-content: center; 
+    display: flex;
+    margin-left: -60px;
+
+    
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        @media screen and (min-width:1120px) {
+            width: auto;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+     
+    
+    
+  
+}
+
+.nav-hovered{
+    color: $secondary-color;
+}
+.nav-first{
+    color: $title-color;
+}
+.bottom-line-studio{
+    width: 95px;
+}
+.hover-text{
+
+
+    position: absolute;
+
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0.3;
+
+    top: 0;
+    left: 0;
+    padding-top: 77px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 62px;
+    color: white;
+    opacity: 0;
+    
+    transition: 
+    color 250ms linear,
+    background-color 250ms linear,
+    opacity 250ms linear;
+
+    &:hover{
+        opacity: 1;
+        color: white;
+        background-color: rgba(33, 150, 243, 0.9);
+    }
+   
+}
+
+.buttons{
+    @media screen and (min-width:768px) {
+        display: flex;
+        
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+.button-portfolio{
+    
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.3;
+
+    color: $title-color;
+
+    background-color: $bg-color;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+
+    transition: 
+    background-color 250ms linear,
+    color 250ms linear;
+
+    &:hover{
+        color: white;
+        background-color: $secondary-color;
+    }
+
+    &:first-child{
+        margin-top: 60px;
+        @media screen and (min-width:768px) {
+            margin-top: 0px;
+            
+        }
+    }
+    &:last-child{
+        margin-bottom: 40px;
+        @media screen and (min-width:768px) {
+            margin-bottom: 15px;
+            
+        }
+    }
+}
+
+
+.border-portfolio{
+    position: relative;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    border: 1px solid rgba(238, 238, 238, 1);
+
+    transition: box-shadow 250ms linear;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 
+        1px 4px 6px 0 rgba(0, 0, 0, 0.16), 
+        0 4px 4px 0 rgba(0, 0, 0, 0.06), 
+        0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    }
+    @media screen and (min-width:1120px) {
+        width: 350px;
+        // margin-right: 0px;
+    }
+
+    
+}
+
+.img-portfolio{
+    width: 353px;
+    height: 282px;
+    margin-bottom: 20px;
+    
+
+    @media screen and (min-width:1120px) {
+        width: 350px;
+        height: 274px;
+          
+    }
+}
+
+.title-portfolio{
+    font-weight: 700;
+    font-style: 18px;
+    line-height: 2;
+    letter-spacing: 0.6;
+    color: $title-color;
+    
+    padding-left: 19px;
+    margin: 0;
+    margin-bottom: 4px;
+}
+.text-portfolio{
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.3;
+
+    color: $primary-color;
+    padding-bottom: 20px;
+
+    margin-left: 20px;
+}
+.center-port{
+    display:grid;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+
+        flex-wrap: wrap;
+        
+        width: 800px;
+        
+    }
+    @media screen and (min-width:1120px) {
+        width: 1170px;
+        margin-left: -40px;
+        
+    }
+
+    
+   
+}

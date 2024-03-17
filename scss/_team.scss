@@ -1,0 +1,281 @@
+@import "_colors";
+
+.normalize-team{
+    padding-bottom: 60px;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 700px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    @media screen and (min-width:1120px) {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 1120px;
+        margin-left: 30px;
+    }
+}
+
+.bg-team{
+    padding-top: 27px;
+    background-color: $bg-color;
+    margin-left: -40px;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width:1120px) {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+}
+
+.title-team{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+    padding-left: 40px;
+    transform: translateX(5px);
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.4;
+    letter-spacing: 0.3;
+
+    @media screen and (min-width:1120px) {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+
+}
+.border-team{
+    list-style: none;
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 450px;
+    box-shadow:  
+    0 1px 3px 0 rgba(0, 0, 0, 0.16), 
+    0 2px 4px 0 rgba(0, 0, 0, 0.08), 
+    0 4px 8px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width:1120px) {
+        width: 270px;
+        
+        &:nth-child(1n){
+            margin-right: 30px;
+        }
+        &:nth-child(2){
+            margin-right: 15px;
+        }
+
+    }
+}
+
+// Николай Кучеренко
+.container-contact{
+    background-color: white;
+}
+
+.image-team-nikolay{
+    // margin-top: 30px;
+    display: block;
+    background-position: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width:767px) {
+        background-image: url(../image/img-nikolay.jpg);
+        background-size: cover;
+        width: auto;
+        height: 320px;
+        background-repeat: no-repeat;
+    }
+    @media screen and (min-width:768px) {
+        background-image: url(../image/img-nikolay.jpg);
+        background-size: cover;
+        width: auto;
+        height: 264px;
+        width: 300px;
+        background-repeat: no-repeat;
+        
+    }
+    
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        
+        
+    }
+    
+}
+
+.title-team-name{
+    padding-top: 30px;
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.3;
+    text-align: center;
+}
+
+.text-team{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.3;
+
+    color: $primary-color;
+
+    margin-bottom: 16px;
+
+    @media screen and (min-width:1120px) {
+        margin-bottom: 25px;
+        
+    }
+}
+
+// иконки соц сетей
+.group-social{
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+    
+   
+}
+.svg-social{
+    position: relative;
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 36px;
+
+    cursor: pointer;
+
+    // &:hover{
+    //     background-color: aqua;
+    // }
+}
+
+// Ольга Иванова
+
+.image-team-olga{
+    // margin-top: 30px;
+    display: block;
+    background-position: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width:767px) {
+        background-image: url(../image/img-olga.jpg);
+        background-size: cover;
+        width: auto;
+        height: 320px;
+        background-repeat: no-repeat;
+    }
+    @media screen and (min-width:768px) {
+        background-image: url(../image/img-olga.jpg);
+        background-size: cover;
+        width: auto;
+        height: 264px;
+        width: 300px;
+        background-repeat: no-repeat;
+        
+        
+    }
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        margin-right: 0px;
+    }
+    
+}
+
+
+
+// Андрей шевченко
+.image-team-andr{
+    
+    // margin-top: 30px;
+    display: block;
+    background-position: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width:767px) {
+        background-image: url(../image/img-andrey.jpg);
+        background-size: cover;
+        width: auto;
+        height: 320px;
+        background-repeat: no-repeat;
+    }
+    @media screen and (min-width:768px) {
+        
+
+        background-image: url(../image/img-andrey.jpg);
+        background-size: cover;
+        width: auto;
+        height: 264px;
+        width: 300px;
+        background-repeat: no-repeat;
+        
+    }
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        
+    }
+}
+
+.border-nomalize{
+    @media screen and (min-width:768px) {
+        margin-left: 15px;
+        
+    }
+}
+
+// Иван Марченко
+.image-team-ivan{
+    
+    display: block;
+    background-position: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width:767px) {
+        background-image: url(../image/img-ivan.jpg);
+        background-size: cover;
+        width: auto;
+        height: 320px;
+        background-repeat: no-repeat;
+    }
+    @media screen and (min-width:768px) {
+        
+
+        background-image: url(../image/img-ivan.jpg);
+        background-size: cover;
+        width: auto;
+        height: 264px;
+        width: 300px;
+        background-repeat: no-repeat;
+        
+    }
+    @media screen and (min-width:1120px) {
+        width: 250px;
+        
+    }
+    
+}
